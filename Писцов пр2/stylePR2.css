@@ -1,0 +1,91 @@
+div{
+    border: 1px solid;
+}
+.header1 {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(0, 140, 255);
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+}
+.imgdiv1 {
+    width: 80px;
+    height: 80px;
+   display: flex;
+   align-items: center;
+}
+.logo {
+    width: 80px;
+    height: 80px;
+}
+.headerknopkidiv {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.buttonHeader1{
+    width: auto;
+    height: 20px;
+    margin-left: 40px;
+    background-color: rgb(43, 139, 248);
+    border: 1px solid;
+}
+.buttonHeader2{
+    width: auto;
+    height: 20px;
+    margin-left: 40px;
+    background-color: rgb(14, 214, 250);
+    border: 1px solid;
+}
+.buttonHeader3{
+    width: auto;
+    height: 20px;
+    margin-left: 40px;
+    background-color: aqua;
+    border: 1px solid;
+}
+.main {
+    margin-top: 2.6%;
+    width: 100%;
+    height: 970px;
+   
+}
+.mainback {
+width: 100%;
+height: 100%;
+}
+.logotext {
+    text-decoration: none;
+    display: flex;
+align-items: center;
+justify-content: center;
+color: rgb(4, 224, 224);
+}
+body {
+margin: 0;
+ background-image: url(ab94i3q4agk21.jpg)
+}
+.infoforead {
+margin-left: 600px;
+    width: 800px;
+}
+.textead {
+display: flex;
+justify-content: center;
+    color:#FFDB58;
+    font-size: 30px;
+}
+.Action {
+    width: 800px;
+height: 400px;
+}
+.imgaction {
+width: 400px;
+height: 400px;
+}

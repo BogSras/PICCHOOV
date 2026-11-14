@@ -1,0 +1,51 @@
+body {
+    background-image: url(1641204074_2-abrakadabra-fun-p-sinii-fon-dlya-prevyu-2.jpg);
+}
+.forma {
+    width: 380px;
+    height: 300px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(93, 200, 241, 0.795);
+}
+.mainpodform {
+    margin-top: 200px;
+      display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.logo {
+margin-top: 40px;
+font-size: 20px;
+text-align: start;
+}
+.user {
+    margin-top: 50px;
+    width: 200px;
+    height: 20px;
+    background-color:rgb(16, 179, 255);
+    border-radius: 100px;
+}
+.password {
+    margin-top: 30px;
+    width: 200px;
+    height: 20px;
+    background-color:rgb(12, 176, 252);
+     border-radius: 100px;
+}
+.signup {
+    width: 200px;
+    height: 20px;
+    position: absolute;
+bottom: 490px;
+ border-radius: 100px;
+}
+.sogl {
+    margin-top: 30px;
+    display: flex;
+align-items: end;
+
+}
