@@ -1,5 +1,16 @@
+@font-face {
+    font-family: "fortnitebattlefest";
+    src: url(fortnitebattlefest.ttf);
+}
 div{
     border: 1px solid;
+}
+.headerknopkidiv {
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 50px;
+left: 50px;
 }
 .header1 {
     width: 100%;
@@ -51,16 +62,26 @@ div{
     border: 1px solid;
 }
 .main {
-    margin-top: 2.6%;
+    margin-top: 60px;
     width: 100%;
     height: 970px;
    
+}
+.historylogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    font-family: "fortnitebattlefest";
+    color: #00c3ff;
 }
 .mainback {
 width: 100%;
 height: 100%;
 }
 .logotext {
+      font-family: "fortnitebattlefest";
+      font-size: 60px;
     text-decoration: none;
     display: flex;
 align-items: center;
@@ -69,23 +90,51 @@ color: rgb(4, 224, 224);
 }
 body {
 margin: 0;
- background-image: url(ab94i3q4agk21.jpg)
+ background-image: url(ab94i3q4agk21.jpg);
+
+}
+.history {
+    background-color: rgba(0, 238, 255, 0.13);
 }
 .infoforead {
 margin-left: 600px;
     width: 800px;
+    border: 1px solid;
 }
 .textead {
 display: flex;
 justify-content: center;
-    color:#FFDB58;
+    color:#ffffff;
     font-size: 30px;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 .Action {
     width: 800px;
 height: 400px;
+display: flex;
+flex-direction: row;
 }
 .imgaction {
-width: 400px;
-height: 400px;
+width: 100%;
+height: 100%;
+}
+.Actionimgdiv {
+    width: 50%;
+    height: 100%;
+}
+.textactiondiv {
+width: 50%;
+height: 100%;
+}
+.jeton {
+    width: 100%;
+    height: 5%;
+}
+.textactionmain {
+    font-family: "fortnitebattlefest";
+    font-size: 25px;
+    color: white;
+}
+.textaction {
+    font-size: 20px;
 }
